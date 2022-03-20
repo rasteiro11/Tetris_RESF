@@ -5,7 +5,7 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [features]
-default = ["sdl2/image"]
+default = ["sdl2/image", "sdl2/ttf"]
 
 [dependencies]
 sdl2 = "0.30.0"
